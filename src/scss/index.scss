@@ -9,8 +9,36 @@ body {
 	background-color: #fff;
 }
 
-#app {
+.wrapper {
 	width: 100%;
-	height: 2000px;
-	background-color: $bgColor;
+	// viewport Height 100%
+	height: 100vh;
+	background-image: url('images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.contents {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 80px;
+	// 垂直センタリング
+	@include display-flex;
+	@include flex-direction(column);
+	@include justify-content(center);
+	background-color: rgba(255, 255, 255, 0.35);
+	@include translateY(-50%);
+
+	// テキスト
+	.center-label {
+		width: 100%;
+		color: #ff0000;
+		font-size: 16pt;
+		line-height: 1em;
+		letter-spacing: 0.3em;
+		text-align: center;
+	}
 }

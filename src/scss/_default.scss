@@ -2,6 +2,13 @@
 @import "compass/reset";
 @import "compass/css3";
 
+//* Fontのインポート
+@font-face {
+	font-family: "CornerStone";
+	src: url('../fonts/Cornerstone.eot') format('eot'),
+	url('../fonts/Cornerstone.woff') format('woff');
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -16,8 +23,8 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 10.5pt;
-	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Droid Sans", sans-serif;
-	font-weight: 400;
+	font-family: "CornerStone", sans-serif;
+	font-weight: 700;
 	line-height: 1.7em;
 	letter-spacing: 0.1em;
 	-webkit-font-smoothing: antialiased;

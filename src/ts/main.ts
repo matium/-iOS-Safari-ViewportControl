@@ -4,7 +4,6 @@ import * as viewportUnitsBuggyfill from 'viewport-units-buggyfill';
 import '../scss/index.scss';
 
 export class Main {
-
 	// リサイズイベントを制限するために設置するタイマー
 	protected resize_timer: any;
 
@@ -65,9 +64,8 @@ export class Main {
 	}
 }
 
-var main: Main;
 
+let main: Main;
 $(document).ready(()=>{
 	main = new Main();
-
 });
