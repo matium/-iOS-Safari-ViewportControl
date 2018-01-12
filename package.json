@@ -1,0 +1,43 @@
+{
+  "name": "ios-safari-viewportcontrol",
+  "version": "1.0.0",
+  "description": "ViewportUnitsBuggyfillを使ってiOS SafariのViewportの高さを調整するサンプル",
+  "main": "./public_html/js/main.js",
+  "scripts": {
+	"build": "webpack -d",
+    "start": "webpack --watch -d & browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matium/iOS-Safari-ViewportControl.git"
+  },
+  "keywords": [
+    "iOS",
+    "Safari",
+    "viewport",
+    "サンプル",
+    "Sample"
+  ],
+  "author": "Keita Watanabe",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/matium/iOS-Safari-ViewportControl/issues"
+  },
+  "homepage": "https://github.com/matium/iOS-Safari-ViewportControl#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.4.1",
+    "compass-mixins": "^0.12.10",
+    "css-loader": "^0.28.8",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.19.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.2.17",
+    "jquery": "^3.2.1",
+    "viewport-units-buggyfill": "^0.6.2"
+  }
+}

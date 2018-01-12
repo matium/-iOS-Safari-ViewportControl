@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./public_html/js/",
+    "target": "es5",
+    "module": "commonjs",
+	"lib" : ["es2015", "es2015.iterable", "dom", "dom.iterable"],
+    "removeComments": false,
+    "sourceMap": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

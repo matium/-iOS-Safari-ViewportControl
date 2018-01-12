@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import 'default';
+@import 'mq';
+
+$bgColor: #eeccaa;
+$textColor: #fff;
+
+body {
+	background-color: #fff;
+}
+
+#app {
+	width: 100%;
+	height: 2000px;
+	background-color: $bgColor;
+}
