@@ -4,7 +4,7 @@
   "description": "ViewportUnitsBuggyfillを使ってiOS SafariのViewportの高さを調整するサンプル",
   "main": "./public_html/js/main.js",
   "scripts": {
-	"build": "webpack -d",
+	"build": "webpack",
     "start": "webpack --watch -d & browser-sync start --config bs-config.js"
   },
   "repository": {
